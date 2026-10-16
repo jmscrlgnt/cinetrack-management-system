@@ -1,0 +1,75 @@
+# ==========================================
+# CINETRACK MANAGEMENT SYSTEM
+# Laravel Project - Git Ignore Configuration
+# ==========================================
+
+# Environment Files and Credentials
+.env
+.env.*
+!.env.example
+/auth.json
+
+# PHP / Laravel
+*.log
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/vendor/
+/bootstrap/cache/*.php
+
+# Node.js / Frontend Dependencies
+/node_modules/
+/public/build/
+/public/hot
+
+# Laravel Storage and Cache
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/logs/*
+!/storage/logs/.gitignore
+
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+
+# User-Uploaded Files
+/storage/app/private/*
+!/storage/app/private/.gitignore
+
+/storage/app/public/*
+!/storage/app/public/.gitignore
+
+/public/uploads/
+
+# Database Backups and Exports
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Temporary and Backup Files
+*.bak
+*.tmp
+*.temp
+
+# IDE / Editor Settings
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Local Development / Homestead
+Homestead.json
+Homestead.yaml
